@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Wingman 
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A hackathon project built to be simple dating service web app that allows a users friends to make matches in their place, built with Firebase, React, JavaScript, and CSS.
 
-## Available Scripts
+## Installation and Setup Instructions
 
-In the project directory, you can run:
+#### Example:  
 
-### `npm start`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm install`  
 
-### `npm test`
+To Run Test Suite:  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm test`  
 
-### `npm run build`
+To Start Server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Visit App:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`http://localhost:3000`  
 
-### `npm run eject`
+To Build App:
+`npm run build`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reflection
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was build at the HelloWorld 2022 hackathon for freshman at Clemson University. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+My group set out to build a project using firebase and react in an attempt to challenge ourselves while still being possible to finish in the 12 hour timeframe.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project was challenging for two main reasons. The first is the unfamiliarity we had with what we were working with. We were pushed out of our comfort zone into using technologies completely new to us. The second challenge was the time. Going from no idea to a completed app in 12 hours was a challenge. The combination of these two things pushed us to be uncomfortable but taught us the necessity of planning and communication to use every second of the time we had.
 
-## Learn More
+One of the biggest obstacles we encountered was figuring out what project we wanted to build. We had the idea of what tech stack we wanted to use, but not necessarily how to apply it in a way that could impress the judges.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The reason we chose the tech stack we did was because it is fairly simple and beginner friendly but still useful in a way that we would all benefit by gaining some experience using it. We decided to use a web app to build in order for it to be easily acessible to everyone. This was further helped by our descision to use the React framework to help with development and consistency across platforms. This allowed us to make a web app usable on mobile as well as desktop. Combining all of these with the use of firebase allowed us a beginner friendly way to enter the world of data storage and comparrisons that we used to implement the system behind the site.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
