@@ -90,24 +90,6 @@ export default class App extends React.Component {
           }
         )
 
-        // onSnapshot(
-        //   query(
-        //     collection(db, "decisions"),
-        //     where("primary_user", "==", user.uid)
-        //   ),
-        //   (snapshot) => {
-        //     const decisions = [];
-        //     snapshot.forEach((doc) => {
-        //       decisions.push({ ...doc.data(), id: doc.id });
-        //     });
-        //     this.setState({
-        //       ...this.state,
-        //       decisions: decisions,
-        //     });
-        //   }
-        // );
-
-
         this.setState({ ...this.state, user: user });
       } else {
         this.setState({ ...this.state, user: null });

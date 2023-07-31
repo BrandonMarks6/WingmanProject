@@ -19,12 +19,7 @@ let ProfileForm = (props) => {
     phoneNumber: "",
     bio: "",
   };
-  /*   if (props.userData) {
-    initialValues = {
-      ...initialValues,
-      ...props.userData.data(),
-    };
-  } */
+  
   const formik = useFormik({
     initialValues: initialValues,
     onSubmit: (values) => {
